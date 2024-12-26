@@ -1,0 +1,74 @@
+https://github.com/suresh831/Suresh-G-Project   (login for git hub portal ,username: suresh831 )
+
+git config --global user.name "suresh831"
+ 
+git config --global user.mail "sureshg8048@gmail.com"
+ 
+git init
+ 
+git clone https://github.com/suresh831/Suresh-G-Project.git
+
+git clone https://github.com/Suresh5992/FSS_CH.git
+
+ 
+git add .
+ 
+git status
+ 
+git commit -m "added files"
+ 
+git commit -a [ check if there any file is missinng to command
+
+git push orign master
+ 
+git diff [ what is you have changed , that will Displayed]
+ 
+git diff --staged [   files in the staging area and the latest version present.]
+ 
+git reset  master [ checked the branch ]
+ 
+git diff master  main [ check the Different two branch master and main]
+ 
+git reset –hard master  [ HEAD is now at 4b91d84 added ]
+ 
+git log [ check the HEAD->Master ]
+ 
+ 
+git log --follow suresh.txt  [  you will get id 40 to 60 digits  4b91d842c65b04b50ffc02ee3dc10ed591690f0d ] 
+
+git show 4b91d842c65b04b50ffc02ee3dc10ed591690f0d
+ 
+git tag 4b91d842c65b04b50ffc02ee3dc10ed591690f0d
+ 
+git branch [ tells How many Branch are there ]
+ 
+git branch -d main [ delete main branch ] 
+
+git checkout -b main [ creates a new branch and also switches ]
+ 
+git clone -b master https://github.com/Msocial123/Retail-App_kubernetes.git   [ to copy master ]
+ 
+git checkout  master [ checkout one branch to other ]
+ 
+git branch [ check how many branch ]
+GitHub - Suresh5992/Devops-test
+Contribute to Suresh5992/Devops-test development by creating an account on GitHub.
+
+
+
+
+git push origin master --force
+git remote set-url origin <correct-URL>  [This should show the URL for origin. If it's not pointing to the right place, you can set it like so] 
+git log origin/master..HEAD  [ Run this command to see if there are any local commits that haven’t been pushed to the remote] 
+git push origin master
+It’s also possible that the remote master branch has changes that you don’t have locally. You can fetch those changes and merge them with your local branch:
+git fetch origin
+git merge origin/master
+git push origin master --force
+git add ../README.md [ if some files miss then ADD and push  ] 
+git add ../index.html
+git add -A
+git commit -m "Add new files and update README, delete index.html"
+git push origin master
+
+ 
